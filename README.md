@@ -30,3 +30,10 @@ dgatti@med.wayne.edu
 Abstract
 
 All-atom and coarse-grained molecular dynamics are two widely used computational tools to study the conformational states of proteins. Yet, these two simulation methods suffer from the fact that without access to supercomputing resources, the time and length scales at which these states become detectable are difficult to achieve. One alternative to such methods is based on encoding the atomistic trajectory of molecular dynamics as a “shorthand” version devoid of physical particles, and then learning to propagate the encoded trajectory through the use of artificial intelligence. Here we show that a simple ‘textual’ representation of the frames of molecular dynamics trajectories as vectors of Ramachandran basin classes retains most of the structural information of the full atomistic representation of a protein in each frame, and can be used to generate equivalent atom-less trajectories suitable to train different types of generative neural networks. In turn, the trained generative models can be used to extend indefinitely the atom-less dynamics or to sample the conformational space of proteins from their representation in the models latent space. We define intuitively this methodology as molecular dynamics without molecules, and show that it enables to cover physically relevant states of proteins that are difficult to access with traditional molecular dynamics. 
+
+[arXiv:2206.04683](https://doi.org/10.48550/arXiv.2206.04683) 
+
+
+Repositiory Content
+
+In this study we show that three types of generative neural networks, a sequence-to-sequence Transformer, a Variational Auto Encoder (VAE), and a Generative Adversarial Network (GAN), trained on the basin-encoded textual representation of an ensemble of 200 MD trajectories displaying the open/closed conformational transition of the Escherichia coli enzyme Adenylate Kinase (AdK), are capable of generating a wide range of protein backbone torsional states of AdK that are not observed in the training ensemble. This repository contains three Jupyter Notebooks that can be used to reproduce the results of the study.
