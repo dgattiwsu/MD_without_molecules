@@ -34,6 +34,6 @@ All-atom and coarse-grained molecular dynamics are two widely used computational
 [arXiv:2206.04683](https://doi.org/10.48550/arXiv.2206.04683) 
 
 
-Repositiory Content
+Repository Content
 
 In this study we show that three types of generative neural networks, a sequence-to-sequence Transformer, a Variational Auto Encoder (VAE), and a Generative Adversarial Network (GAN), trained on the basin-encoded textual representation of an ensemble of 200 MD trajectories displaying the open/closed conformational transition of the Escherichia coli enzyme Adenylate Kinase (AdK), are capable of generating a wide range of protein backbone torsional states of AdK that are not observed in the training ensemble. This repository contains three Jupyter Notebooks that can be used to reproduce the results of the study.
